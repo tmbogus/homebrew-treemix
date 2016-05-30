@@ -6,6 +6,7 @@ class Treemix < Formula
   sha256 "28ca3b9ac85fa2a8432f1856123b75e7e845eb38052378439d6bbbe38e1d60e6"
 
   depends_on "gsl"
+  depends_on "boost"
 
   def install
     system "./configure", "--disable-debug",
